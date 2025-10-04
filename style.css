@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 130px;
+    margin-left: 40px;
+}
+#Hour{
+    font-size: 200px;
+height: 400px;
+width: 300px;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: rgb(238, 233, 233);
+border-radius:20px ;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Mins{
+    font-size: 200px;
+height: 400px;
+width: 300px;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: rgb(238, 233, 233);
+border-radius:20px ;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#sec{
+    height: 40px;
+    width: 50px;
+    margin-top: 430px;
+padding-left: 20px;
+font-size: 40px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#am_pm{
+    height: 40px;
+    width: 50px;
+    padding-left: 20px;
+font-size: 40px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
